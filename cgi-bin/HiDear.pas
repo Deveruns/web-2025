@@ -13,7 +13,7 @@ BEGIN
   IF PosName > 0
   THEN
     BEGIN
-      Name := Copy(QueryString, 6, Length(QueryString) - 4);
+      Name := Copy(QueryString, 6, Length(QueryString)-5);
       WRITE('dear, ', Name, '!');
     END
   ELSE
