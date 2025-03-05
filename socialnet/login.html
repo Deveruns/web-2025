@@ -5,27 +5,16 @@
   <title>Авторизация</title>
 </head>
 <body>
-  <table align="center" border="0">
-    <tr>
-      <td align="center">
-        <h1 align="left">Войти</h1>
-        <img src="data/login.png" alt="Лого" width="350" height="350">
-      </td>
-      <td align="left">
-        <label for="login">Логин:</label>
-        <br>
-        <input type="text" id="login" name="login" placeholder="Введите логин">
-        <br>
-        <label for="password">Пароль:</label>
-        <br>
-        <input type="password" id="password" name="password" placeholder="Введите пароль">
-        <br>
-        <br>
-        <form action="@">
-        <button type="submit">Продолжить</button>
-        </form>
-      </td>
-    </tr>
-  </table>
+  <h1>Войти</h1>
+  <img src="data/login.png" alt="Лого" width="350" height="350">
+  <form action="#" method="POST">
+    <div><label for="login">Логин:</label>
+      <input type="text" id="login" name="login" placeholder="Введите логин" required>
+    </div>
+    <div><label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+    </div>  
+    <button type="submit">Продолжить</button>
+  </form>
 </body>
 </html>
