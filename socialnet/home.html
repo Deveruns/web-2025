@@ -3,53 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <title>Главная</title>
+  <link rel="stylesheet" href="css/styles-home.css">
 </head>
 <body>
   <div class="side-panel">
-    <a href="home.html"><img src="data/home.png" alt="Домой" width="40" height="40"></a>
-    <a href="profile.html"><img src="data/user.png" alt="Пользователь" width="40" height="40"></a>
-    <img src="data/plus.png" alt="Добавить" width="40" height="40">
+    <a href="home.html">
+      <img src="data/home.png"  class="panel-buttons" alt="Домой">
+    </a>   
+    <a href="profile.html">
+      <img src="data/user.png" class="panel-buttons" alt="Пользователь">
+    </a>
+    <a href="plus.html">
+      <img src="data/plus.png" class="panel-buttons" alt="Добавить">
+    </a>
   </div>
-  <div class="newsfeed">
-    <div class="userpost">  
-      <div class="posthat">
-        <a href="profile.html"><img src="data/avatarivan.png" alt="Аватар" width="32" height="32"></a>
-        <a href="profile.html"><span>Ваня Денисов</span></a>
-        <img src="data/edit.png" alt="Изменить" width="40" height="40">
-      </div>
-      <div class="postimg">
-          <a href="post1.html"><img src="data/snowcros.png" alt="Фотография" width="474" height="474"></a>
+  <div class="news-feed">
+    <div class="user-post">  
+      <div class="post-hat">
+        <a href="profile.html" class="user-profile">
+          <img src="data/avatarivan.png" class="profile-avatar" alt="Аватар">
+          <span class="user-name">Ваня Денисов</span>
+        </a>
+        <a href="edit-post.html">
+          <img src="data/edit.png" class="edit-post" alt="Изменить">
+        </a>
       </div>
       <div>
-          <button class="likebutton">
-            <img src="data/like.png" alt="Нравится" width="16" height="18">
+          <a href="data/snowcros.png">
+            <img src="data/snowcros.png" class="post-img" alt="Фотография">
+          </a>
+      </div>
+      <div>
+          <button class="like-button">
+            <img src="data/like.png" class="like-png" alt="Нравится">
           </button>
       </div>
-      <div class="postdescription"> 
+      <div class="post-description"> 
         <p> Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в городке, занесённом снегом по ручку двери»</p>
       </div>
-      <div> 
-        <h6>2 часа назад</h6>
+      <div>
+        <span class="post-publication-time">2 часа назад</span>
       </div>
     </div>
-    <div class="userpost">  
-      <div class="posthat">
-        <a href="userliza.html"><img src="data/avatarliza.png" alt="Аватар" width="32" height="32"></a>
-        <a href="userliza.html"><span>Лиза Дёмина</span></a>
-        <img src="data/edit.png" alt="Изменить" width="40" height="40">
-      </div>
-      <div class="postimg">
-          <a href="post1liza.html"><img src="data/bookfish.png" alt="Фотография" width="474" height="474"></a>
-      </div>
+    <div class="user-post">  
+      <div class="post-hat">
+        <a href="userliza.html" class="user-profile">
+          <img src="data/avatarliza.png" alt="Аватар"  class="profile-avatar">
+          <span class="user-name">Лиза Дёмина</span>
+        </a>
+      </div>  
+        <div>
+            <a href="data/bookfish.png">
+              <img src="data/bookfish.png" class="post-img" alt="Фотография">
+            </a>
+        </div>
       <div>
-          <button class="likebutton">
-            <img src="data/like.png" alt="Нравится" width="16" height="18">
+          <button class="like-button">
+            <img src="data/like.png" class="like-png" alt="Нравится">
           </button>
       </div>
-      <div class="postdescription">
-      </div>
-      <div> 
-        <h6>1 день назад</h6>
+      <div class="post-description"></div>
+      <div class="post-publication-time"> 
+        <span>1 день назад</span>
       </div>
     </div>
   </div>  

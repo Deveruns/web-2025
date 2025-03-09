@@ -1,0 +1,89 @@
+body {
+  font-family: Golos UI, sans-serif;
+}
+
+.side-panel{
+  width: 72px;
+  height: 100%;
+}
+
+.panel-buttons{
+  width: 40px;
+  height: 40px;
+}
+
+.user-post{
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+.profile-avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
+.post-hat{
+  width: 474px;
+  height: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  vertical-align: middle;
+}
+
+.user-profile{
+  text-decoration: none;
+}
+
+.user-name{
+  font-size: 14px;
+  color:  #222222;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 18px;
+  letter-spacing: -0.15px;
+  vertical-align: middle;
+}
+
+.edit-post{
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  float: right;
+}
+
+
+.post-img{
+  width: 474px;
+  height: 474px;
+}
+
+.like-button{
+  width: 68px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.like-png{
+  width: 18px;
+  height: 18px;
+}
+
+.post-description{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.15px;
+}
+
+.post-publication-time{
+  font-size: 14px;
+  color: #22222280;
+}

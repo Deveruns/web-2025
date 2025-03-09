@@ -1,0 +1,84 @@
+body {
+  font-family: Golos UI, sans-serif;
+}
+
+.side-panel{
+  width: 72px;
+  height: 100%;
+}
+
+.panel-buttons{
+  width: 40px;
+  height: 40px;
+}
+
+.main-profile{
+  width: 1369px;
+}
+
+.profile-hat{
+  text-align: center;
+}
+
+.user-avatar{
+  width: 123px;
+  height: 123px;
+  border: none;
+  border-radius: 16px;
+}
+
+.user-name{
+  width: 361px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.15;
+  margin: 20px auto;
+}
+
+.user-info{
+  width: 361px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.15;
+  line-height: 18px;
+  margin: 20px auto;
+}
+
+.all-posts{
+  width: 101px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  border: none;
+  background-color: #F2F3F5;
+  margin: 13px auto;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.image{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.posts-counter{
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 400px;
+  letter-spacing: -0.15;
+  line-height: 18px;
+}
+
+.user-posts{
+  text-align: center;
+}
+
+.post-photo{
+  width: 322px;
+  height: 322px;
+  border: none;
+  border-radius: 2px;
+}
