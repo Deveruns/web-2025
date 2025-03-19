@@ -4,26 +4,25 @@
   <meta charset="UTF-8">
   <title>Авторизация</title>
   <link rel="stylesheet" href="css/styles-login.css">
+  <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
-  <h1>Войти</h1>
-  <img src="data/login.png" alt="Лого" id="login-img">
+  <h1 class="title">Войти</h1>
+  <img class="login-img" src="data/login.png" alt="Лого">
   <form action="home.html" method="POST">
-    <div><label for="login-blank">Электропочта</label>
+    <div>
+      <label for="login-blank">Электропочта</label>
       <div>
-        <input type="text" id="login-blank" name="login" required>
-        <div id="login-note">Введите электропочту в формате *****@***.**</div>
+        <input class="input" type="text" id="login-blank" name="login" required>
+        <p class="login-note">Введите электропочту в формате *****@***.**</p>
       </div>
     </div>
     <div><label for="password-blank">Пароль</label>
       <div>
-        <input type="password" id="password-blank" name="password" required>
-        <button  id="hidepass">
-          <img src="data/hidepass.png" alt="Показать пароль" id="hidepass-img">
-        </button>
+        <input class="input" type="password" id="password-blank" name="password" required>
       </div>
     </div>  
-    <button id="submit-button" type="submit">Продолжить</button>
+    <button class="submit-button" type="submit">Продолжить</button>
   </form>
 </body>
 </html>
