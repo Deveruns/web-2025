@@ -43,7 +43,8 @@ body
     margin: 20px auto;
 }
 
-.user-info{
+.user-info
+{
     width: 361px;
     font-size: 15px;
     font-weight: 400;
