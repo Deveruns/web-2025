@@ -8,15 +8,15 @@
 <body>
   <div class="title-hat">Вычислиение факториала числа</div>
   <form method="post">
-    <label class="input-label" for="date">Вычислиение факториала числа:</label>
+    <label class="input-label" for="factorial">Вычислиение факториала числа:</label>
     <div><input class="factorial" type="number" id="factorial" name="factorial" required></div>
     <div><button class="input-button" type="submit">Определить</button></div>
   </form>
   <div class="answer-message">
-  <?php if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  <?php if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $count = $_POST['factorial'];
     function factorial($count) {
-      if ($count == 0 || $count == 1) {
+      if ($count === 0 || $count === 1) {
           return 1;
       }
       return $count * factorial($count - 1);

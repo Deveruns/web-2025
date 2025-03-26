@@ -8,9 +8,9 @@
 <body>
   <div class="title-hat">Определение счастливых билетов</div>
   <form method="post">
-    <label class="input-label" for="date">Введите два счастливых билета:</label>
-    <div><input class="ticket" type="number" id="ticket1" name="ticket1" required></div>
-    <div><input class="ticket" type="number" id="ticket2" name="ticket2" required></div>
+    <label class="input-label" for="ticket1">Введите два счастливых билета:</label>
+    <div><input class="ticket" type="number" id="ticket1" name="ticket1" placeholder="XXXXXX" required></div>
+    <div><input class="ticket" type="number" id="ticket2" name="ticket2" placeholder="XXXXXX" required></div>
     <div><button class="input-button" type="submit">Определить</button></div>
   </form>
   <div class="answer-message">
@@ -31,13 +31,13 @@
       $t21 = intdiv($ticket1, 100) % 10;
       $t22 = intdiv($ticket1, 10) % 10;
       $t23 = $ticket1 % 10;
-      if (($t11 + $t12 + $t13) == ($t21 + $t22 + $t23)) {
+      if (($t11 + $t12 + $t13) === ($t21 + $t22 + $t23)) {
         echo"<span class='success-message'>$ticket1  </span>";
         $success = 1;
       }
       $ticket1++;
     }
-    if ($success != 1) {
+    if ($success !== 1) {
       echo"<span class='error-message'>Нет счастливых билетов</span>";
     }
   }
