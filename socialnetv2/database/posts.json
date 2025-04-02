@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "image": "data/snowcros.png",
+    "description": "Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в городке, занесённом снегом по ручку двери»",
+    "likes": 0,
+    "timestamp": 1735699900
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "image": "data/bookfish.png",
+    "description": "",
+    "likes": 0,
+    "timestamp": 1734688800
+  },
+  {
+    "id": 3, 
+    "userId": 1, 
+    "image": "data/snowcros.png",
+    "likes": 0,
+    "timestamp": 1733613400
+  },
+  {
+    "id": 4, 
+    "userId": 1, 
+    "image": "data/coca.png",
+    "likes": 0,
+    "timestamp": 1732611100
+  },
+  {
+    "id": 5, 
+    "userId": 1, 
+    "image": "data/cake.png",
+    "likes": 0,
+    "timestamp": 1731111100
+    
+  },
+  {
+    "id": 6, 
+    "userId": 1, 
+    "image": "data/friends.png",
+    "likes": 0,
+    "timestamp": 17300123400
+  },
+  {
+    "id": 7, 
+    "userId": 1, 
+    "image": "data/coffe.png",
+    "likes": 0,
+    "timestamp": 1729555000
+  },
+  {
+    "id": 8, 
+    "userId": 1, 
+    "image": "data/book.png",
+    "likes": 0,
+    "timestamp": 1728601900
+  }
+]
